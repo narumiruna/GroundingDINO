@@ -1164,7 +1164,7 @@ testing = ["black (==22.3)", "datasets", "numpy", "pytest", "requests"]
 name = "toml"
 version = "0.10.2"
 description = "Python Library for Tom's Obvious, Minimal Language"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 files = [
@@ -1176,7 +1176,7 @@ files = [
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
@@ -1387,7 +1387,7 @@ zstd = ["zstandard (>=0.18.0)"]
 name = "yapf"
 version = "0.33.0"
 description = "A formatter for Python code."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 files = [
@@ -1417,4 +1417,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "aa05170d88f54a866603c60bbfe1809f4c8d1b0b001c9817923ec639d17f2eb3"
+content-hash = "80a1915b5f0b5b336107a13e96d29e2c8754d1b058ca7ce69969f92ab034e10f"
