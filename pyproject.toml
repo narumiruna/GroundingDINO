@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "groundingdino"
+version = "0.1.0"
+description = ""
+authors = ["International Digital Economy Academy, Shilong Liu"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.0.1"
+torchvision = "^0.15.2"
+transformers = "^4.29.2"
+addict = "^2.4.0"
+timm = "^0.9.2"
+opencv-python = "^4.7.0.72"
+pycocotools = "^2.0.6"
+supervision = "0.6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+yapf = "^0.33.0"
+toml = "^0.10.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
